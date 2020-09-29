@@ -1,0 +1,306 @@
+$bgcolor: #ffffff
+$footercolor: #000000
+$h3color: #000000
+$FooterSpanColor: #c9c9c9
+$arrowcolor: #000000
+html 
+    scroll-behavior: smooth
+body 
+    
+    margin: 0
+    padding: 0
+.fixed
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 99
+    opacity: 0.9
+    box-sizing: border-box
+
+.bg
+    // background-image: url('../img/body/bg_body.jpg')
+    background-repeat: no-repeat
+    background-attachment: fixed
+
+.cont
+    width: 960px
+    margin: 0 auto
+
+header
+    
+.navigation
+
+
+    .navbar
+        background-color: black !important
+       
+        
+      
+    .collapse
+        ul 
+            .nav-item 
+                a
+                    color: #ffffff
+    .navbar-text
+        .one
+            margin: 3px 10px 0 0 
+        img 
+            margin: -5px 5px 0 0
+            
+        span 
+            color: #ffffff
+            margin-right: 80px
+.header_bgone
+    background-image: url('../img/run over/one.jpg')  
+    height: 800px   
+    padding-top: 500px
+    background-size: cover
+    background-position: 0 -58px
+    background-repeat: no-repeat 
+    
+    div
+        width: 100%
+        align-items: center
+        
+
+        h3 
+            font-size: 70px
+            text-transform: uppercase
+            font-weight: bold
+            color: #000000
+        
+        
+    
+              
+.header_bgtwo
+    background-image: url('../img/run over/two.jpg')  
+    height: 800px 
+    padding-top: 300px
+    background-size: cover
+    background-position: 0 -58px
+    background-repeat: no-repeat 
+    
+    div
+        width: 100%
+        align-items: center
+           
+        h3 
+            font-size: 70px
+            text-transform: uppercase
+            font-weight: bold
+            color: #ffffff
+
+header
+    .carousel
+        .carousel-control-prev,.carousel-control-next
+            .carousel-control-prev-icon,.carousel-control-next-icon
+                display: none
+
+.snowbords, .features
+    height: 1120px
+    text-align: center
+    padding-top: 150px
+    background-color: $bgcolor
+    h3,h6,h4
+        text-transform: uppercase
+        margin: 0
+    h3 
+        font-size: 48px
+        font-weight: bold
+        color: $h3color
+    h4 
+        font-weight: 700
+
+    h6 
+        font-size: 14px
+        font-weight: 400
+        margin: 30px 0
+        
+    .arrow, .arrow
+        position: relative
+        width: 30px
+        height: 30px
+        margin: 0 auto
+        span 
+            position: absolute
+            width: 30px
+            height: 5px
+            background-color: $arrowcolor
+            left: 0
+            top: 13px
+        span:first-child
+            transform: rotate(-45deg)
+        span:last-child
+            transform: rotate(45deg)
+    .carousel
+       margin: 100px 0 50px 0
+    
+    .carousel-inner 
+        .carousel-item
+                .img
+                    height: 405px
+                    width: 170px
+                    margin: 0 auto
+                .imgone
+                    background-image: url('../img/snowbords/snow1.png')
+                .imgtwo
+                    background-image: url('../img/snowbords/snow2.png')
+                .imgthree
+                    background-image: url('../img/snowbords/snow3.png')
+                .imgfour
+                    background-image: url('../img/snowbords/snow4.png')
+                .imgfive
+                    background-image: url('../img/snowbords/snow5.png')
+
+    .carousel
+        .carousel-control-prev,.carousel-control-next
+            .carousel-control-prev-icon,.carousel-control-next-icon
+                width: 200px
+                height: 200px
+                background-color: #d0d0d0
+                border-radius: 50%
+                span 
+                    width: 100px 
+                    height: 5px 
+                
+                    
+                
+.the_mountains
+    background-image: url('../img/the mountains/bg image1.jpg')
+    height: auto
+    padding: 250px 0 208px 0
+    background-size: cover
+    background-position: center
+    
+    
+    .cont
+        h3 
+            font-size: 40px
+            color: #ffffff
+            text-transform: uppercase
+            font-weight: bold
+            margin: 0 0 80px 0
+            width: 400px
+            
+        p 
+             color: #ffffff
+             font-size: 15px
+             font-weight: 400
+             line-height: 30px
+        .first
+            margin: 0 0 45px 0
+.features
+    background-color: #ffffff
+    height: auto
+    padding: 120px 0 100px 0
+    .cont
+        width: 100%
+        
+        h3 
+            margin-bottom: 30px
+    .card_item
+        margin: 80px 0 0 0  
+        justify-content: space-evenly 
+        flex-wrap: wrap
+        .card
+            border: none
+            box-shadow: none
+            margin: 70px 0 0 10px
+          
+            .card-body
+                p 
+                    font-size: 18px
+                    font-weight: 500
+                    text-align: left
+footer 
+    height: auto
+    background-color: $footercolor
+    padding: 80px 0 8px 0
+    align-items: center
+    .footer_content
+        justify-content: space-evenly 
+        flex-wrap: wrap
+        div
+            margin: 30px 0 0 0 
+            align-items: left
+            width: 300px
+        .products, .about, .customer_support
+            h3
+                color: #ffffff
+                font-weight: bold
+                text-transform: uppercase
+            span 
+                color: $FooterSpanColor
+        .customer_support
+            h3 
+                font-weight: 400
+                text-transform: uppercase
+                color: #ffffff
+        .form_div
+            h3 
+                font-size: 17px
+                font-weight: bold
+                text-transform: uppercase
+                color: $bgcolor
+            input 
+                width: 160px
+                font-size: 14px
+                font-weight: 400
+                padding: 10px 0 10px 15px
+                border: none
+                vertical-align: middle
+            button 
+                height: 41px
+                width: 60px
+                border: none
+                vertical-align: middle
+                margin-left: -4px
+                font-weight: bolder
+                background-color: #c7c7c7
+                font-family: 'Roboto', sans-serif
+            ul 
+                list-style: none
+                display: flex
+                // justify-content: space-evenly
+                margin: 60px 0 0 0
+                padding: 0
+                li
+                    margin-right: 37px
+                    a 
+                        color: #ffffff
+                        text-decoration: none
+    .footer_down
+        justify-content: space-around 
+        margin-top: 60px
+        
+        
+        span 
+            color: #ffffff
+            font-size: 14px
+            font-weight: 500
+
+
+
+@media screen and (max-width: 1300px)
+    .header_bgone
+        padding-top: 200px
+@media screen and (max-width: 960px)
+    .cont
+        width: 100%
+@media screen and (max-width: 500px)
+     .header_bgone,.header_bgone
+        div
+            h3 
+                font-size: 35px
+@media screen and (max-width: 400px)
+    .the_mountains
+        .cont
+            h3
+                font-size: 30px
+                width: 100%
+                text-align: center
+    .snowbords
+        h3
+            width: 100%
+            font-size: 28px
